@@ -40,7 +40,7 @@ const projects = [
   },
   {
     title: "Web Portfolio & E-Commerce",
-    clients: "khkautoparts.com, tol.lk, hyattphotography.au, tdhandyman.au",
+    clients: "khkautoparts.com, a4tours.net, tdhandyman.au, hyattphotography.au, tol.lk",
     desc: "We developed high-quality, fast, and modern websites and e-commerce platforms for many international and local clients to grow their businesses online.",
     image: "/images/bento_ai.png",
     category: "Web Development"
