@@ -139,10 +139,10 @@ export const AboutCompanySection = () => {
               </motion.div>
 
               {/* Overlaid Kanrich Logo inside the image */}
-              <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10 flex items-center gap-6 rounded-[2rem] bg-black/70 backdrop-blur-2xl p-6 md:p-8 border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.8)] transition-transform hover:-translate-y-2">
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col sm:flex-row items-center gap-6 md:gap-8 rounded-[2.5rem] bg-black/70 backdrop-blur-2xl p-6 md:p-10 border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.8)] hover:scale-105 transition-transform w-[90%] md:w-fit text-center sm:text-left">
                 
-                <div className="relative w-36 h-12 md:w-48 md:h-14 bg-white rounded-xl p-3 shrink-0 shadow-[0_0_15px_rgba(255,255,255,0.2)] flex items-center justify-center">
-                  <Image src="/images/companylogo.png" alt="Kanrich Group" fill className="object-contain p-2" />
+                <div className="relative w-28 h-28 md:w-36 md:h-36 bg-white rounded-2xl p-2 shrink-0 shadow-[0_0_20px_rgba(255,255,255,0.2)] flex items-center justify-center">
+                  <Image src="/images/kanrich_limited_logo.jpg" alt="Kanrich Group" fill className="object-contain p-2" />
                 </div>
                 
                 <div>

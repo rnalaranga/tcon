@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Outfit } from "next/font/google";
 import { Navbar } from "@/components/layout/navbar";
 import { Footer } from "@/components/layout/footer";
@@ -14,6 +14,10 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Tech Connect Global | Engineering Intelligent Digital Transformation",
   description: "Global technology consulting company delivering enterprise digital transformation solutions.",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0A192F",
 };
 
 export default function RootLayout({
