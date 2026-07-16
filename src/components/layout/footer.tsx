@@ -58,15 +58,15 @@ export const Footer = () => {
             <div className="flex flex-col gap-3 text-sm text-slate-600 dark:text-white/50 mt-2">
               <div className="flex items-center gap-3">
                 <MapPin className="h-4 w-4 text-slate-400 dark:text-white/40 flex-shrink-0" />
-                <span>Level 12, The Capital Tower, Colombo 01, Sri Lanka</span>
+                <span>No 93, Kynsey Road, Colombo 08, Sri Lanka</span>
               </div>
               <div className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-slate-400 dark:text-white/40 flex-shrink-0" />
-                <span>+94 11 234 5678</span>
+                <span>+94 70 799 3375 (HotLine)</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-slate-400 dark:text-white/40 flex-shrink-0" />
-                <span>hello@techconnectglobal.com</span>
+                <span>pm@tech-connect.net</span>
               </div>
             </div>
 
