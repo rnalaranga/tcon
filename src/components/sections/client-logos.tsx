@@ -4,19 +4,19 @@ import { motion } from "framer-motion";
 
 export const ClientLogosSection = () => {
   const logos = [
-    { id: 1, src: "/images/clients/Dammika-s.webp", alt: "Dammika's" },
-    { id: 2, src: "/images/clients/Daraz.webp", alt: "Daraz" },
-    { id: 3, src: "/images/clients/FPS-Lanka.webp", alt: "FPS Lanka" },
-    { id: 4, src: "/images/clients/Genius.webp", alt: "Genius" },
-    { id: 5, src: "/images/clients/ITNIOTECH.webp", alt: "ITNIOTECH" },
-    { id: 6, src: "/images/clients/Irr.webp", alt: "IRR" },
-    { id: 7, src: "/images/clients/Life.webp", alt: "Life" },
-    { id: 8, src: "/images/clients/Luminara-Global.webp", alt: "Luminara Global" },
-    { id: 9, src: "/images/clients/granton.webp", alt: "Granton" },
-    { id: 10, src: "/images/clients/medi-shine.webp", alt: "Medi Shine" },
-    { id: 11, src: "/images/clients/pacific-cables.webp", alt: "Pacific Cables" },
-    { id: 12, src: "/images/clients/raasa.webp", alt: "Raasa" },
-    { id: 13, src: "/images/clients/yusuf-bhai.webp", alt: "Yusuf Bhai" }
+    { id: 1, src: "/images/CLIENTS/Dammika-s.webp", alt: "Dammika's" },
+    { id: 2, src: "/images/CLIENTS/Daraz.webp", alt: "Daraz" },
+    { id: 3, src: "/images/CLIENTS/FPS-Lanka.webp", alt: "FPS Lanka" },
+    { id: 4, src: "/images/CLIENTS/Genius.webp", alt: "Genius" },
+    { id: 5, src: "/images/CLIENTS/ITNIOTECH.webp", alt: "ITNIOTECH" },
+    { id: 6, src: "/images/CLIENTS/Irr.webp", alt: "IRR" },
+    { id: 7, src: "/images/CLIENTS/Life.webp", alt: "Life" },
+    { id: 8, src: "/images/CLIENTS/Luminara-Global.webp", alt: "Luminara Global" },
+    { id: 9, src: "/images/CLIENTS/granton.webp", alt: "Granton" },
+    { id: 10, src: "/images/CLIENTS/medi-shine.webp", alt: "Medi Shine" },
+    { id: 11, src: "/images/CLIENTS/pacific-cables.webp", alt: "Pacific Cables" },
+    { id: 12, src: "/images/CLIENTS/raasa.webp", alt: "Raasa" },
+    { id: 13, src: "/images/CLIENTS/yusuf-bhai.webp", alt: "Yusuf Bhai" }
   ];
 
   return (
