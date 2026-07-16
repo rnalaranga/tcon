@@ -33,7 +33,7 @@ export const HeroSection = () => {
   };
 
   return (
-    <section ref={containerRef} className="relative h-screen w-full overflow-hidden bg-black">
+    <section ref={containerRef} className="relative min-h-[100svh] w-full overflow-hidden bg-black">
       
       {/* Photo Background with Parallax and Slow Scale */}
       <motion.div style={{ y, opacity, willChange: "transform, opacity" }} className="absolute inset-0 z-0 overflow-hidden bg-black">
@@ -59,7 +59,7 @@ export const HeroSection = () => {
       </motion.div>
 
       {/* Content */}
-      <div className="relative z-10 flex h-full items-center px-6 pt-32 md:pt-48">
+      <div className="relative z-10 flex min-h-[100svh] items-center px-6 pt-32 pb-24 md:pt-48 md:pb-32">
         <div className="mx-auto w-full max-w-7xl mt-8 md:mt-16">
           <motion.div
             variants={containerVariants}
@@ -99,11 +99,11 @@ export const HeroSection = () => {
               
               <Link
                 href="/work"
-                className="group relative flex h-16 w-48 items-center justify-center overflow-hidden rounded-full bg-white text-black font-bold uppercase tracking-widest transition-transform hover:scale-105"
+                className="group relative flex h-16 w-64 shrink-0 items-center justify-center overflow-hidden rounded-full bg-white text-black font-bold uppercase tracking-widest transition-transform hover:scale-105 mt-4 md:mt-0 shadow-[0_0_40px_rgba(255,255,255,0.15)]"
               >
-                <span className="relative z-10 flex items-center gap-2">
+                <span className="relative z-10 flex items-center gap-3">
                   Explore Work
-                  <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </span>
                 <div className="absolute inset-0 z-0 h-full w-full scale-0 rounded-full bg-cyan-400 transition-transform duration-500 ease-out group-hover:scale-100" />
               </Link>

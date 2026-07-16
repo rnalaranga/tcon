@@ -73,11 +73,16 @@ export const Footer = () => {
 
             {/* Social */}
             <div className="flex gap-4 mt-4">
-              {[FaFacebook, FaLinkedin, FaTwitter, FaInstagram].map((Icon, i) => (
+              {[
+                { Icon: FaFacebook, href: "https://www.facebook.com/profile.php?id=61588100461285" },
+                { Icon: FaLinkedin, href: "https://www.linkedin.com/company/tech-connect-pvt-ltd/posts/?feedView=all" }
+              ].map(({ Icon, href }, i) => (
                 <a
                   key={i}
-                  href="#"
-                  className="text-slate-400 dark:text-white/40 hover:text-slate-900 dark:hover:text-white transition-colors"
+                  href={href}
+                  target={href !== "#" ? "_blank" : undefined}
+                  rel={href !== "#" ? "noopener noreferrer" : undefined}
+                  className="text-slate-400 dark:text-white/40 hover:text-slate-900 dark:hover:text-white transition-colors hover:scale-110 transform"
                 >
                   <Icon className="h-5 w-5" />
                 </a>
