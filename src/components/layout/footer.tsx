@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, MapPin, Phone, Mail } from "lucide-react";
 import { FaFacebook, FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
 
@@ -40,9 +41,9 @@ export const Footer = () => {
 
           {/* Brand column */}
           <div className="col-span-2 md:col-span-4 lg:col-span-2 flex flex-col gap-5 pr-0 lg:pr-12">
-            <Link href="/" className="flex items-center gap-3 w-fit">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-black dark:bg-white">
-                <span className="text-sm font-bold text-white dark:text-black">TC</span>
+            <Link href="/" className="flex items-center gap-4 w-fit">
+              <div className="relative flex h-12 w-44 items-center justify-center overflow-hidden rounded-lg bg-white shadow-lg shrink-0">
+                <Image src="/images/companylogo.png" alt="Tech Connect Global Logo" fill className="object-contain p-1.5" sizes="176px" />
               </div>
               <div className="flex flex-col leading-none">
                 <span className="text-base font-bold text-slate-900 dark:text-white">Tech Connect Global</span>

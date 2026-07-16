@@ -34,8 +34,8 @@ export default function AboutPage() {
         <div className="absolute inset-0 bg-gradient-to-r from-cyan-900/20 to-purple-900/10 mix-blend-color-dodge pointer-events-none" />
         <div className="container mx-auto px-6 max-w-7xl relative z-10 flex flex-col items-center text-center">
           
-          <div className="relative w-24 h-24 md:w-32 md:h-32 bg-white rounded-2xl p-4 shadow-[0_0_40px_rgba(255,255,255,0.15)] mb-8">
-            <Image src="/images/clients/logo.webp" alt="Kanrich Group" fill className="object-contain" />
+          <div className="relative w-36 h-12 md:w-48 md:h-16 bg-white rounded-xl p-3 shadow-[0_0_40px_rgba(255,255,255,0.15)] mb-8 flex items-center justify-center">
+            <Image src="/images/companylogo.png" alt="Kanrich Group" fill className="object-contain p-2" />
           </div>
           
           <h1 className="text-4xl md:text-6xl font-black text-white uppercase tracking-tighter mb-4">

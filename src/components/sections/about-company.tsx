@@ -142,7 +142,7 @@ export const AboutCompanySection = () => {
               <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10 flex items-center gap-6 rounded-[2rem] bg-black/70 backdrop-blur-2xl p-6 md:p-8 border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.8)] transition-transform hover:-translate-y-2">
                 
                 <div className="relative w-36 h-12 md:w-48 md:h-14 bg-white rounded-xl p-3 shrink-0 shadow-[0_0_15px_rgba(255,255,255,0.2)] flex items-center justify-center">
-                  <Image src="/images/clients/logo.webp" alt="Kanrich Group" fill className="object-contain p-2" />
+                  <Image src="/images/companylogo.png" alt="Kanrich Group" fill className="object-contain p-2" />
                 </div>
                 
                 <div>

@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { Menu, X, ArrowRight } from "lucide-react";
 import { motion, useScroll, useMotionValueEvent, AnimatePresence } from "framer-motion";
@@ -49,9 +50,9 @@ export const Navbar = () => {
           )}>
             
             {/* Logo */}
-            <Link href="/" className="group relative z-10 flex items-center gap-2">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-black font-bold text-xl transition-transform duration-500 group-hover:rotate-12 group-hover:scale-110">
-                TC
+            <Link href="/" className="group relative z-10 flex items-center gap-3">
+              <div className="relative flex h-10 w-36 md:h-12 md:w-44 items-center justify-center overflow-hidden rounded-lg bg-white transition-transform duration-500 group-hover:scale-105 shadow-lg shrink-0">
+                <Image src="/images/companylogo.png" alt="Tech Connect Global Logo" fill className="object-contain p-1.5" sizes="(max-width: 768px) 144px, 176px" />
               </div>
               <span className="text-xl font-bold tracking-tighter text-white">
                 Tech Connect
@@ -108,8 +109,8 @@ export const Navbar = () => {
             className="fixed inset-0 z-[200] flex flex-col bg-black px-6 py-10"
           >
             <div className="flex justify-between items-center mb-20">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-black font-bold text-xl">
-                TC
+              <div className="relative flex h-10 w-36 items-center justify-center overflow-hidden rounded-lg bg-white shadow-lg">
+                <Image src="/images/companylogo.png" alt="Tech Connect Global Logo" fill className="object-contain p-1" sizes="144px" />
               </div>
               <button
                 className="rounded-full bg-white/10 p-3 text-white transition-colors hover:bg-white/20"

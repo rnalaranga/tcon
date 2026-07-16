@@ -68,12 +68,6 @@ export const HeroSection = () => {
             viewport={{ once: true }}
             className="flex flex-col"
           >
-            <motion.div variants={itemVariants} className="flex items-center gap-4 mb-6 mt-8 md:mt-0">
-              <div className="relative w-12 h-12 bg-white rounded-lg p-2 shadow-[0_0_20px_rgba(255,255,255,0.2)]">
-                <Image src="/images/clients/logo.webp" alt="Kanrich Group" fill className="object-contain" />
-              </div>
-              <span className="text-sm md:text-base font-bold uppercase tracking-widest text-cyan-400">A Member of Kanrich Group</span>
-            </motion.div>
             
             <motion.div variants={itemVariants} className="overflow-hidden">
               {/* Removed mix-blend-difference for massive performance gain */}
